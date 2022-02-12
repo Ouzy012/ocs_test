@@ -1,0 +1,16 @@
+<?php return array (
+  'plugins.generic.announcementfeed.displayName' => 'Plugiciel de flux d\'annonce',
+  'plugins.generic.announcementfeed.description' => 'Ce plugiciel produit des flux de syndication RSS/Atom pour les annonces de conférence.',
+  'plugins.generic.announcementfeed.settings' => 'Paramètres',
+  'plugins.generic.announcementfeed.settings.all' => 'Afficher les liens de flux dans toutes les pages de la conférence.',
+  'plugins.generic.announcementfeed.settings.homepage' => 'Afficher les liens de flux uniquement dans la page d\'accueil et dans la page de l\'annonce.',
+  'plugins.generic.announcementfeed.settings.announcement' => 'Afficher les liens de flux uniquement dans la page de l\'annonce.',
+  'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Limiter le flux aux',
+  'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'annonces les plus récentes.',
+  'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Prière de saisir un entier positif pour les annonces récentes.',
+  'plugins.generic.announcementfeed.atom.altText' => 'Logo Atom',
+  'plugins.generic.announcementfeed.rss1.altText' => 'Logo RSS1',
+  'plugins.generic.announcementfeed.rss2.altText' => 'Logo RSS2',
+  'plugins.generic.announcementfeed.enabled' => 'Le plugiciel de flux d\'annonces a été activé.',
+  'plugins.generic.announcementfeed.disabled' => 'Le plugiciel de flux d\'annonces a été désactivé.',
+); ?>

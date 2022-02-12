@@ -1,0 +1,16 @@
+<?php return array (
+  'plugins.generic.googleAnalytics.displayName' => 'Plugiciel Google Analytics',
+  'plugins.generic.googleAnalytics.description' => 'Intégrez l\'OCS à Google Analytics, l’application d\'analyse de trafic sur le site Web de Google. Vous devez avoir un compte Google Analytics pour utiliser cette application. Veuillez consulter le <a href="http://www.google.com/analytics/" title="Google Analytics site">site Google Analytics </a> pour de plus amples renseignements.',
+  'plugins.generic.googleAnalytics.manager.settings' => 'Paramètres',
+  'plugins.generic.googleAnalytics.manager.googleAnalyticsSettings' => 'Paramètres de Google Analytics',
+  'plugins.generic.googleAnalytics.manager.settings.description' => '<p> Au moyen de ce plugiciel, vous pouvez utiliser Google Analytics pour collecter et analyser l\'utilisation et le trafic sur ce site Web pour cette revue. Veuillez noter que pour utiliser ce plugiciel, vous devez déjà avoir un compte Google Analytics. Veuillez consulter le <a href="http://www.google.com/analytics/" title="Google Analytics site">site Google Analytics </a> pour de plus amples renseignements.</p>',
+  'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Numéro de compte',
+  'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions' => 'À partir de Google Analytics, cliquez sur Vérifier l\'état pour voir le code de localisation de votre site. Le numéro de compte est affiché dans le code de localisation : _uacct = "###". Entrez le texte correspondant à ###.',
+  'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Veuillez entrer un numéro de compte.',
+  'plugins.generic.googleAnalytics.manager.settings.trackingCode' => 'Code de suivi',
+  'plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired' => 'Prière de sélectionner un code de suivi.',
+  'plugins.generic.googleAnalytics.manager.settings.urchin' => 'Code suivi existants (urchin.js)',
+  'plugins.generic.googleAnalytics.manager.settings.ga' => 'Nouveau code de suivi (ga.js)',
+  'plugins.generic.googleAnalytics.enabled' => 'Le plugiciel Google Analytics a été activé.',
+  'plugins.generic.sgoogleAnalyticsehl.disabled' => 'Le plugiciel Google Analytics a été désactivé.',
+); ?>

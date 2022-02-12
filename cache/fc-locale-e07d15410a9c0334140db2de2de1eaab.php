@@ -1,0 +1,17 @@
+<?php return array (
+  'plugins.paymethod.paypal.displayName' => 'Paypal',
+  'plugins.paymethod.paypal.settings.paypalenable' => 'Activer PayPal',
+  'plugins.paymethod.paypal.settings.paypalurl' => 'URL d\'IPN',
+  'plugins.paymethod.paypal.settings.paypalurl.description' => 'Ceci est l\'URL du service Instant Payment Notification (IPN) de Paypal. Pour fins de test, utiliser <u>https://www.sandbox.paypal.com/cgi-bin/webscr</u>; pour les systèmes de production, utiliser <u>https://www.paypal.com/cgi-bin/webscr</u>.',
+  'plugins.paymethod.paypal.settings.selleraccount' => 'Compte du vendeur',
+  'plugins.paymethod.paypal.settings.selleraccount.description' => 'Ceci est est le nom d\'utilisateur Paypal à utiliser par les vendeurs, habituellement une adresse de courriel.',
+  'plugins.paymethod.paypal.settings.curlNotInstalled' => 'Avertissement: le support de CURL pour PHP n\'est pas installé. Le support du paiement PayPal exige la bibliothèque CURL et ne fonctionnera pas avant qu\'il ne soit installé.',
+  'plugins.paymethod.paypal.settings' => 'Paramètres PayPal',
+  'plugins.paymethod.paypal' => 'Paiement PayPal',
+  'plugins.paymethod.paypal.description' => 'Le plugiciel PayPal permet aux utilisateurs, qu\'ils soient ou non des membres PayPal, d\'utiliser les cartes de crédits les plus communes, ainsi que les eChecks. Le gestionnaire de conférence devra mettre en place un <a href="http://www.paypal.com" target="_new">PayPal Business Account</a>.',
+  'plugins.paymethod.paypal.warning' => 'En cliquant sur Continuer, vous serez redirigé vers le site Web de Paypal. Après avoir effectué votre paiement avec Paypal, vous pouvez cliquer sur le bouton "Return to Merchant" pour revenir sur ce site.',
+  'plugins.paymethod.paypal.purchase.amount' => 'Montant',
+  'plugins.paymethod.paypal.purchase.description' => 'Description',
+  'plugins.paymethod.paypal.purchase.cancelled' => 'Votre achat a été annulé.',
+  'plugins.paymethod.paypal.purchase.cancelled.title' => 'Achat annulé',
+); ?>

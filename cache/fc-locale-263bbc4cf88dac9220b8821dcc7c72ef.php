@@ -1,0 +1,17 @@
+<?php return array (
+  'plugins.generic.customBlockManager.displayName' => 'Gestionnaire de bloc personnalisé',
+  'plugins.generic.customBlockManager.description' => 'Ce plugiciel vous permet de gérer des blocs personnalisés d\'encadrés latéraux. Vous pouvez modifier les blocs dans les paramètres de chaque plugiciel que vous créez ici.',
+  'plugin.generic.customBlockManager.introduction' => 'Vous pouvez utiliser ce plugiciel pour ajouter ou supprimer des plugiciels de blocs personnalisés. Vous pouvez alors modifier le contenu à l\'aide de la page de <a href="{$systemPluginsUrl}">Plugiciels du système</a> (dans la section Plugiciel de blocs). Pour placer votre plugiciel à l\'emplacement souhaité dans l\'encadré latéral, aller à <a href="{$setupStep4}">Configuration - étape 4</a>',
+  'plugins.generic.customBlockManager.settings' => 'Paramètres',
+  'plugins.generic.customBlockManager.blockName' => 'Nom du bloc',
+  'plugins.generic.customBlockManager.action' => 'Action',
+  'plugins.generic.customBlockManager.delete' => 'Supprimer',
+  'plugins.generic.customBlockManager.addBlock' => 'Ajouter un bloc',
+  'plugins.generic.customBlock.content' => 'Contenu',
+  'plugins.generic.customBlock.saved' => 'Le contenu du bloc a été enregistré.',
+  'plugins.generic.customBlock.nameSuffix' => '(Plugiciel de bloc personnalisé)',
+  'plugins.generic.customBlock.description' => 'Il s\'agit d\'un bloc créé par l\'utilisateur.',
+  'plugins.generic.customBlock.editContent' => 'Modifier le contenu de l\'encadré latéral',
+  'plugins.generic.customBlock.contentRequired' => 'Un minimum de contenu est obligatoire. Si vous souhaitez supprimer ce bloc, vous pouvez le faire à l\'aide du Plugiciel de gestion de bloc ou en désélectionnant ce bloc à l\'Étape 5 de la configuration.',
+  'plugins.generic.customBlock.edit' => 'Modifier',
+); ?>
