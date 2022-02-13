@@ -84,12 +84,12 @@
   array (
     'fr_CA' => 
     array (
-      'name' => 'logo_ucad.jpg',
-      'uploadName' => 'pageHeaderLogoImage_fr_CA.jpg',
-      'width' => 280,
-      'height' => 100,
-      'mimeType' => 'image/jpeg',
-      'dateUploaded' => '2022-02-10 09:18:57',
+      'name' => 'logo_ucad_bleu.png',
+      'uploadName' => 'pageHeaderLogoImage_fr_CA.png',
+      'width' => 100,
+      'height' => 98,
+      'mimeType' => 'image/png',
+      'dateUploaded' => '2022-02-13 11:58:42',
     ),
   ),
   'homeHeaderTitle' => 
@@ -116,6 +116,6 @@
   'rtFindingReferences' => false,
   'conferencePageHeader' => 
   array (
-    'fr_CA' => '<div style="width: 880px; float: right; padding-top: 0px;"><p style="display: inline;"><span style="text-transform: capitalize;">université cheikh anta diop</span><br /> <span><em style="text-transform: capitalize;">Système de gestion des conférences de l\'UCAD</em></span></p></div>',
+    'fr_CA' => '<div style="width: 1020px; float: right; padding-top: 20px;"><p style="display: inline;"><span><em style="text-transform: capitalize; color: #006699;">Système de gestion des conférences de l\'UCAD</em></span></p></div>',
   ),
 ); ?>

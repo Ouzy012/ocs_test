@@ -65,7 +65,8 @@ input.defaultButton {
 }
 
 #header {
-    background-color: #006699;
+    /* background-color: #006699; */
+    background-color: #ffffff;
 }
 
 #header h1 {
@@ -75,6 +76,7 @@ input.defaultButton {
     text-transform: uppercase;
     color: #ffffff;
     letter-spacing: 2px;
+    border-bottom: solid #006699 3px;
 }
 
 #footer {
