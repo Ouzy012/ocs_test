@@ -116,6 +116,6 @@
   'rtFindingReferences' => false,
   'conferencePageHeader' => 
   array (
-    'fr_CA' => '<div style="width: 1020px; float: right; padding-top: 20px;"><p style="display: inline;"><span><em style="text-transform: capitalize; color: #006699;">Système de gestion des conférences de l\'UCAD</em></span></p></div>',
+    'fr_CA' => '<div style="width: 90%; float: right; padding-top: 25px;"><p style="display: inline;"><span><em style="text-transform: capitalize; color: #006699;">Système de gestion des conférences de l\'UCAD</em></span></p></div>',
   ),
 ); ?>
