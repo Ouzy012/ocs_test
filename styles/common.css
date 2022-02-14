@@ -1,4 +1,6 @@
 /**
+
+    Style page d'accueil
  * common.css
  *
  * Copyright (c) 2000-2012 John Willinsky
@@ -37,7 +39,8 @@ a:hover {
  */
 
 #header {
-    background-color: #CAA;
+    /* background-color: #CAA; */
+    background-color: #ffffff;
 }
 
 #footer {
