@@ -158,14 +158,17 @@ input.defaultButton {
 
 #breadcrumb {
     padding-top: 1em;
-    font-size: 0.7em;
+    /* font-size: 0.7em; */
+    font-size: 12px;
 }
 
 #content {
     margin: 0;
     padding: 0;
     padding-top: 0.5em;
-    font-size: 0.7em;
+    /* font-size: 0.7em; */
+    font-size: 12px;
+    line-height: 32px;
     border-top: 2px dotted #000;
 }
 

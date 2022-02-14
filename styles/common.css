@@ -9,25 +9,26 @@
  * $Id:
  */
 
+
 /**
  * Common HTML elements
  */
 
 a:link {
-	color: #335;
+    color: #335;
 }
 
 a:active {
-	color: #253;
+    color: #253;
 }
 
 a:visited {
-	color: #335;
+    color: #335;
 }
 
 a:hover {
-	color: #253;
-	background: #CDC;
+    color: #253;
+    background: #CDC;
 }
 
 
@@ -36,16 +37,16 @@ a:hover {
  */
 
 #header {
-	background-color: #CAA;
+    background-color: #CAA;
 }
 
 #footer {
-	background-color: #CAA;
+    background-color: #CAA;
 }
 
 #main {
-	width: 80%;
-	margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -54,8 +55,9 @@ a:hover {
  */
 
 #navbar a {
-	font-size: 0.65em;
-	letter-spacing: 0.05em;
+    /* font-size: 0.65em; */
+    font-size: 12px;
+    letter-spacing: 0.05em;
 }
 
 
@@ -64,99 +66,96 @@ a:hover {
  */
 
 #announcementsHome {
-	width: 100%;
-	margin: 2em 0 2em 0;	
+    width: 100%;
+    margin: 2em 0 2em 0;
 }
 
 #announcementsHome h3 {
-	text-align: center;
+    text-align: center;
 }
 
 #announcements {
-	width: 100%;
+    width: 100%;
 }
 
 #announcements h3 {
-	text-align: center;
+    text-align: center;
 }
 
 table.announcements {
-	width: 100%;
+    width: 100%;
 }
 
 table.announcements td {
-	padding: 0.25em 0.5em 0.25em 0.5em;
+    padding: 0.25em 0.5em 0.25em 0.5em;
 }
 
 table.announcements td.nodata {
-	text-align: center;
-	font-style: italic;
+    text-align: center;
+    font-style: italic;
 }
 
 table.announcements td.headseparator {
-	border-top: 1px dotted #000;
-	font-size: 0.1em;
-	line-height: 1%;
+    border-top: 1px dotted #000;
+    font-size: 0.1em;
+    line-height: 1%;
 }
 
 table.announcements td.endseparator {
-	border-top: 1px dotted #000;
-	font-size: 0.25em;
-	line-height: 10%;
+    border-top: 1px dotted #000;
+    font-size: 0.25em;
+    line-height: 10%;
 }
 
 table.announcements td.separator {
-	border-top: 1px dotted #DDDDD0;
-	font-size: 0.1em;
-	line-height: 1%;
+    border-top: 1px dotted #DDDDD0;
+    font-size: 0.1em;
+    line-height: 1%;
 }
 
-table.announcements tr.intro {
-}
+table.announcements tr.intro {}
 
-table.announcements td.intro {
-}
+table.announcements td.intro {}
 
 table.announcements tr.title {
-	vertical-align: top; 
+    vertical-align: top;
 }
 
 table.announcements td.title {
-	width: 85%;
+    width: 85%;
 }
 
-table.announcements td.title h4 {
-}
+table.announcements td.title h4 {}
 
 table.announcements tr.description {
-	vertical-align: top;
+    vertical-align: top;
 }
 
 table.announcements td.description {
-	width: 85%;
+    width: 85%;
 }
 
 table.announcements tr.details {
-	vertical-align: bottom;
+    vertical-align: bottom;
 }
 
 table.announcements td.posted {
-	padding-top: 1em;
-	font-style: italic;
+    padding-top: 1em;
+    font-style: italic;
 }
 
 table.announcements td.more {
-	width: 15%;
-	text-align: right;
+    width: 15%;
+    text-align: right;
 }
 
 table.announcementsMore {
-	width: 100%;
+    width: 100%;
 }
 
 table.announcementsMore td {
-	padding-top: 1.5em;
-	text-align: right;
+    padding-top: 1.5em;
+    text-align: right;
 }
 
 
@@ -165,10 +164,10 @@ table.announcementsMore td {
  */
 
 #homepageImage img {
-	display: block;
-	margin: 0 auto;
-	border: 0;
-	text-align: center;
+    display: block;
+    margin: 0 auto;
+    border: 0;
+    text-align: center;
 }
 
 
@@ -176,16 +175,16 @@ table.announcementsMore td {
  * Organizing Team Lists
  */
 
-ol.organizingTeam {
-}
+ol.organizingTeam {}
 
 ol.organizingTeam li {
-	list-style: none;
+    list-style: none;
 }
 
-ol.organizingTeam, ol.organizingTeam li {
-	margin-left: 0;
-	padding-left: 0;
+ol.organizingTeam,
+ol.organizingTeam li {
+    margin-left: 0;
+    padding-left: 0;
 }
 
 
@@ -194,26 +193,27 @@ ol.organizingTeam, ol.organizingTeam li {
  */
 
 pre {
-	background-color: #F0F0E8;
-	color: #000;
-	font-size: 1.25em;
+    background-color: #F0F0E8;
+    color: #000;
+    font-size: 1.25em;
 }
+
 
 /**
  * Table styles
  */
 
 table.listing {
-	border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 table.listing tr.data td {
-	border-top: 1px dotted #DDDDD0;
-	border-bottom: 1px dotted #DDDDD0;
+    border-top: 1px dotted #DDDDD0;
+    border-bottom: 1px dotted #DDDDD0;
 }
 
 table.listing tr.data td.drag {
-	cursor: move;
+    cursor: move;
 }
 
 
@@ -225,126 +225,128 @@ table.listing tr.data td.drag {
 /**
  * Drag and drop styles
  */
+
 .draggable {
-	position: relative;
-	cursor: move;
+    position: relative;
+    cursor: move;
 }
 
 .borderBox {
-	border-style: solid;
-	border-color: #000000;
-	border-width: 1px;
-	margin: 2px;
-	padding: 2px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    margin: 2px;
+    padding: 2px;
 }
 
 .floatLeft {
-	float: left;
+    float: left;
 }
+
 
 /**
  * Scheduler styles
  */
+
 .scrollContainer {
-	overflow: auto;
+    overflow: auto;
 }
 
 .scheduleTable {
-	min-width: 100%;
+    min-width: 100%;
 }
 
 .schedulerEvent {
-	color: #880000;
-	background-color: #FBFBF3;
+    color: #880000;
+    background-color: #FBFBF3;
 }
 
 .schedulerPresentation {
-	color: #008800;
-	background-color: #FBFBF3;
+    color: #008800;
+    background-color: #FBFBF3;
 }
 
 .schedulerEventHeader {
-	color: #FBFBF3;
-	background-color: #880000;
+    color: #FBFBF3;
+    background-color: #880000;
 }
 
 .schedulerPresentationHeader {
-	color: #FBFBF3;
-	background-color: #008800;
+    color: #FBFBF3;
+    background-color: #008800;
 }
 
-
 td.hole {
-	background-color: #777777;
+    background-color: #777777;
 }
 
 td.timeRowLabel {
-	border-style: solid none none none;
-	border-width: 1px;
+    border-style: solid none none none;
+    border-width: 1px;
 }
 
-.droppable {
-}
+.droppable {}
 
 td.notificationContent {
-	padding-left: 5px;
-	padding-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 td.notificationFunction {
-	padding-left: 5px;
-	padding-right: 5px;
-	text-align: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;
 }
+
 
 /* @group Font Sizer */
 
 .smallFont {
-	outline: none; /*for making it look nice in FF */
-	background: url(../lib/pkp/templates/images/icons/font-down.png);
-	text-indent: -9999px;
-	display: block;
-	float: left;
-	width: 20px;
-	height: 23px;
-	margin-right: 4px;
-	margin-left: 8px;
+    outline: none;
+    /*for making it look nice in FF */
+    background: url(../lib/pkp/templates/images/icons/font-down.png);
+    text-indent: -9999px;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 23px;
+    margin-right: 4px;
+    margin-left: 8px;
 }
 
 a.smallFont:hover {
-	background: url(../lib/pkp/templates/images/icons/font-down.png);
-	color: none;
+    background: url(../lib/pkp/templates/images/icons/font-down.png);
+    color: none;
 }
 
 .defaultFont {
-	/*if you want to hide the default font button, use display:none */
-	background: url(../lib/pkp/templates/images/icons/font-default.png);
-	text-indent: -9999px;
-	outline: none;
-	display: block;
-	float: left;
-	width: 20px;
-	height: 23px;
-	margin-right: 4px;
-
+    /*if you want to hide the default font button, use display:none */
+    background: url(../lib/pkp/templates/images/icons/font-default.png);
+    text-indent: -9999px;
+    outline: none;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 23px;
+    margin-right: 4px;
 }
 
 a.defaultFont:hover {
-	background: url(../lib/pkp/templates/images/icons/font-default.png);
-	color: none;
+    background: url(../lib/pkp/templates/images/icons/font-default.png);
+    color: none;
 }
 
 .largeFont {
-	background: url(../lib/pkp/templates/images/icons/font-up.png);
-	outline: none;
-	text-indent: -9999px;
-	display: block;
-	float: left;
-	width: 20px;
-	height: 23px;
+    background: url(../lib/pkp/templates/images/icons/font-up.png);
+    outline: none;
+    text-indent: -9999px;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 23px;
 }
 
 a.largeFont:hover {
-	background: url(../lib/pkp/templates/images/icons/font-up.png);
-	color: none;
+    background: url(../lib/pkp/templates/images/icons/font-up.png);
+    color: none;
 }
